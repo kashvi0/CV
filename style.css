@@ -1,0 +1,210 @@
+/*  --------------------------------------------- TAG SELECTORS --------------------------------------------- */
+
+a{
+    color:  #11999E;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 0px;
+    font-size: 562.5%;     /* 100% == 16px */
+    font-family: 'Sacramento', cursive;
+    padding-top: 50px;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+
+hr{
+    border-style: none;
+    border-top: dotted 10px #def6f6;
+    width: 7%;
+}
+
+/*  --------------------------------------------- CLASS SELECTORS --------------------------------------------- */
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.cloud-bottum{
+    position: absolute;
+    left: 300px;
+}
+
+.cloud-top{
+    position: absolute;
+    left: 1000px;
+    top: 40px;
+}
+
+.intro{
+    padding-bottom: 50px;
+}
+
+.profile{
+    padding-top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 70px auto 70px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+/*  --------------------------------------------- CLASS TAG SELECTORS --------------------------------------------- */
+
+a.footer-link:hover{
+    color: #EAF6F6;
+}
+
+a.footer-link{
+    color: #0f8a8f;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+div.bottom-container{
+    height: 80px;
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.contact-me{
+    padding-bottom: 80px;
+}
+
+h2.intro{
+    font-weight: normal;
+}
+
+h2.myskills{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+h2.new{
+    margin: 0%;
+    padding-top: 10px;
+}
+
+h2.touch{
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+h3.skill1{
+    padding-left: 200px;
+    margin: 0%;
+}
+
+h3.skill2{
+    margin: 0%;
+    padding-top: 10px;
+}
+
+h3.skill3{
+    padding-left: 160px;
+    margin: 0%;
+}
+
+h3.touch{
+    margin-bottom: 40px;
+}
+
+img.skill1{
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+
+img.skill2{
+    width: 18%;
+    height: auto;
+    float: right;
+}
+
+img.skill3{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+p.bottom{
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    color: #EAF6F6;
+}
+
+p.new{
+    margin-bottom: 30px;
+}
+
+p.skill1{
+    padding-left: 200px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p.skill2{
+    margin-top: 0%;
+    margin-bottom: 100px;
+    padding-right: 150px;
+}
+
+p.skill3{
+    padding-left: 160px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p.touch{
+    margin-bottom: 30px;
+}
